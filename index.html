@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--
+========================
+EDITABLE PROFILE DATA
+========================
+Name:       Ferdousi Mahmud Moon
+Title:      Computer Science & Engineering Student
+Tagline:    Technology & Innovation Enthusiast
+Phone:      [Phone Number]            -> search "[Phone Number]" in this file
+Email:      [Email Address]           -> search "[Email Address]" and the id="emailLink"
+Location:   [City, Bangladesh]
+LinkedIn:   [LinkedIn URL]            -> replace href="#" on elements with data-link="linkedin"
+GitHub:     [GitHub URL]              -> replace href="#" on elements with data-link="github"
+Portfolio:  [Portfolio URL]           -> replace href="#" on elements with data-link="portfolio"
+CV:         cv.pdf   (keep beside index.html)
+Photo:      photo.jpg (keep beside index.html)
+========================
+-->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ferdousi Mahmud Moon | Computer Science &amp; Engineering Student</title>
+<meta name="description" content="Portfolio of Ferdousi Mahmud Moon, a Computer Science & Engineering student at Daffodil International University working in robotics, embedded systems and software.">
+<meta name="theme-color" content="#0B0B0D">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<div class="spotlight" aria-hidden="true"></div>
+
+<!-- ============ NAVIGATION ============ -->
+<header class="nav" id="nav">
+  <div class="nav__inner">
+    <a class="nav__logo" href="#home" aria-label="Ferdousi Mahmud Moon, back to top">FM<span>.</span></a>
+    <button class="nav__toggle" id="navToggle" aria-label="Open menu" aria-expanded="false" aria-controls="navMenu">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="nav__menu" id="navMenu" aria-label="Primary">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#leadership">Leadership</a></li>
+        <li><a href="#awards">Awards</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <a class="btn btn--small" href="cv.pdf" target="_blank" rel="noopener">View CV</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+<!-- ============ HERO ============ -->
+<section class="hero" id="home" aria-labelledby="hero-title">
+  <div class="container hero__grid">
+    <div class="hero__text">
+      <p class="eyebrow">COMPUTER SCIENCE &amp; ENGINEERING</p>
+      <h1 id="hero-title">Ferdousi Mahmud Moon</h1>
+      <p class="hero__sub">Computer Science &amp; Engineering Student</p>
+      <p class="hero__tag">Technology &amp; Innovation Enthusiast</p>
+      <p class="hero__intro">Computer Science &amp; Engineering student at Daffodil International University with a strong interest in technology, innovation and practical problem solving. Experienced in academic and hands-on technology projects spanning robotics, embedded systems and software development, including a smart helmet safety system that earned a Gold Medal at the Innovation World Cup National Round. Active in university clubs and extracurricular activities, with experience in technology competitions and innovation projects, and a growing foundation in C++, Arduino and sensor-based automation.</p>
+      <div class="hero__cta">
+        <a class="btn" href="#projects">Explore My Work</a>
+        <a class="btn btn--ghost" href="cv.pdf" target="_blank" rel="noopener">View CV</a>
+        <a class="link-quiet" href="cv.pdf" download>Download CV</a>
+      </div>
+      <ul class="stats" aria-label="Highlights">
+        <li><strong>3.25</strong><span>CGPA out of 4.00</span></li>
+        <li><strong>Gold</strong><span>Innovation World Cup, National Round</span></li>
+        <li><strong>6</strong><span>Clubs and teams at DIU</span></li>
+      </ul>
+    </div>
+
+    <div class="hero__visual">
+      <div class="portrait">
+        <svg class="portrait__traces" viewBox="0 0 400 480" aria-hidden="true" focusable="false">
+          <path d="M20 60 H90 L120 30 H210" />
+          <path d="M380 420 H300 L270 450 H190" />
+          <path d="M385 110 V170 L360 195" />
+          <path d="M15 360 V300 L40 275" />
+          <circle cx="210" cy="30" r="4"/><circle cx="190" cy="450" r="4"/>
+          <circle cx="360" cy="195" r="4"/><circle cx="40" cy="275" r="4"/>
+        </svg>
+        <div class="portrait__ring">
+          <div class="portrait__frame">
+            <img src="photo.jpg" alt="Portrait of Ferdousi Mahmud Moon" width="400" height="480" fetchpriority="high">
+            <span class="portrait__fallback" aria-hidden="true">FM</span>
+          </div>
+        </div>
+        <p class="portrait__chip">Daffodil International University</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ ABOUT ============ -->
+<section class="section" id="about" aria-labelledby="about-title">
+  <div class="container about">
+    <div class="about__head reveal">
+      <h2 id="about-title">About Me</h2>
+      <div class="rule"></div>
+    </div>
+    <div class="about__body reveal">
+      <p class="lead">I study Computer Science &amp; Engineering at Daffodil International University, and I like ideas that end up as working things: a helmet that will not let a motorcycle start, a stick that warns of obstacles, a robot that follows a line.</p>
+      <p>My work spans robotics, embedded systems and software development. It includes a smart helmet safety system that earned a Gold Medal at the Innovation World Cup National Round. I am active in university clubs and extracurricular activities, with experience in technology competitions and innovation projects, and a growing foundation in C++, Arduino and sensor-based automation.</p>
+      <h3 class="mini-title">What I’m interested in</h3>
+      <ul class="tags">
+        <li>Technology</li><li>Innovation</li><li>Robotics</li>
+        <li>Embedded Systems</li><li>Practical Problem Solving</li><li>Sensor-Based Automation</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ============ EDUCATION ============ -->
+<section class="section section--alt" id="education" aria-labelledby="edu-title">
+  <div class="container">
+    <div class="section__head reveal">
+      <h2 id="edu-title">Education</h2>
+      <div class="rule"></div>
+    </div>
+    <ol class="timeline">
+      <li class="timeline__item reveal">
+        <div class="card edu">
+          <div>
+            <h3>B.Sc. in Computer Science and Engineering</h3>
+            <p class="muted">Daffodil International University</p>
+          </div>
+          <div class="grade"><strong>3.25</strong><span>CGPA / 4.00</span></div>
+        </div>
+      </li>
+      <li class="timeline__item reveal">
+        <div class="card edu">
+          <div>
+            <h3>Higher Secondary School Certificate (HSC)</h3>
+            <p class="muted">Barishal Govt. Women’s College</p>
+          </div>
+          <div class="grade"><strong>5.00</strong><span>GPA / 5.00</span></div>
+        </div>
+      </li>
+      <li class="timeline__item reveal">
+        <div class="card edu">
+          <div>
+            <h3>Secondary School Certificate (SSC)</h3>
+            <p class="muted">Barishal Govt. Girls High School, Barishal</p>
+          </div>
+          <div class="grade"><strong>5.00</strong><span>GPA / 5.00</span></div>
+        </div>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<!-- ============ SKILLS ============ -->
+<section class="section" id="skills" aria-labelledby="skills-title">
+  <div class="container">
+    <div class="section__head reveal">
+      <h2 id="skills-title">Technical Skills</h2>
+      <div class="rule"></div>
+    </div>
+    <div class="skills">
+      <article class="card skill reveal">
+        <h3>Programming</h3>
+        <ul class="chips">
+          <li>C++</li><li>C Programming Fundamentals</li><li>Basic Data Structures</li><li>File Handling</li><li>Problem Solving</li>
+        </ul>
+      </article>
+      <article class="card skill reveal">
+        <h3>Hardware &amp; Robotics</h3>
+        <ul class="chips">
+          <li>Arduino</li><li>Embedded Systems</li><li>Robotics</li><li>Sensors &amp; Automation</li>
+        </ul>
+      </article>
+      <article class="card skill reveal">
+        <h3>Languages</h3>
+        <ul class="langs">
+          <li><span>Bangla</span><em>Native</em></li>
+          <li><span>English</span><em>Professional Working Proficiency</em></li>
+        </ul>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PROJECTS ============ -->
+<section class="section section--alt" id="projects" aria-labelledby="projects-title">
+  <div class="container">
+    <div class="section__head reveal">
+      <h2 id="projects-title">Featured Projects</h2>
+      <div class="rule"></div>
+    </div>
+
+    <!-- Featured: Smart Helmet -->
+    <article class="card feature reveal">
+      <div class="feature__art" aria-hidden="true">
+        <!-- CSS/SVG abstract hardware visual (not a photograph) -->
+        <svg viewBox="0 0 320 260" focusable="false">
+          <path class="helmet" d="M60 170 C60 90 110 50 170 50 C230 50 270 95 270 160 V185 H140 C110 185 95 195 60 170 Z"/>
+          <path class="visor" d="M150 110 H265 V150 H150 Z"/>
+          <g class="traces">
+            <path d="M40 220 H120 L140 200 H210"/>
+            <path d="M280 230 H220 L205 215"/>
+            <path d="M30 120 H70"/>
+          </g>
+          <circle class="node" cx="210" cy="200" r="5"/>
+          <circle class="node" cx="70" cy="120" r="5"/>
+          <circle class="node n3" cx="205" cy="215" r="4"/>
+        </svg>
+        <div class="medal"><span>Gold Medal</span></div>
+      </div>
+      <div class="feature__body">
+        <p class="badge">Gold Medal · Life Science Category · Innovation World Cup (IWC), National Round</p>
+        <h3>Smart Helmet Safety System</h3>
+        <p>Developed a smart helmet-based safety system designed to enhance motorcycle rider safety. The system integrates alcohol detection and helmet-wearing detection to prevent the motorcycle from starting when the rider is not wearing the helmet or when alcohol is detected. It also includes an accident detection and emergency alert feature that automatically sends an alert to a predefined emergency contact number in the event of an accident.</p>
+        <ul class="chips chips--sm">
+          <li>Safety Automation</li><li>Sensors</li><li>Alcohol Detection</li><li>Helmet Detection</li><li>Accident Detection</li><li>Emergency Alert System</li><li>Embedded Systems</li>
+        </ul>
+      </div>
+    </article>
+
+    <div class="grid-2">
+      <article class="card project reveal">
+        <h3>Flood Detection System</h3>
+        <p>Developed an Arduino-free flood detection system using a water sensor, LED, buzzer, battery, and switch to detect rising water levels and provide an immediate visual and audio alert.</p>
+      </article>
+      <article class="card project reveal">
+        <h3>Smart Stick for the Visually Impaired</h3>
+        <p>Developed a smart walking stick using ultrasonic sensors and a buzzer to detect obstacles and provide audio alerts, helping visually impaired individuals navigate more safely and independently.</p>
+      </article>
+    </div>
+
+    <!-- University projects -->
+    <h3 class="sub-head reveal">University Projects</h3>
+    <div class="grid-2">
+      <article class="card project reveal">
+        <span class="tech">C++</span>
+        <h4>Library Management System</h4>
+        <p>Menu-driven library management system for managing books, issuing and returning books, and maintaining book records using file handling and basic data structures.</p>
+      </article>
+      <article class="card project reveal">
+        <span class="tech">C++</span>
+        <h4>Cafe Management System</h4>
+        <p>Menu-driven cafe management system for managing food items, customer orders, billing, and sales records using structured programming and file handling.</p>
+      </article>
+    </div>
+
+    <!-- Early projects -->
+    <h3 class="sub-head reveal">Early Projects &amp; Experiments</h3>
+    <ol class="early">
+      <li class="reveal"><h4>Smart Automatic Dustbin</h4><p>Arduino-based smart dustbin prototype using an ultrasonic sensor to detect nearby objects and automatically open the lid, providing an early hands-on experience with sensors, automation, and Arduino programming.</p></li>
+      <li class="reveal"><h4>Line Following Robot (LFR)</h4><p>Arduino-based autonomous robot designed to detect and follow a predefined path using IR sensors, providing practical experience in robotics, sensor integration, and basic control programming.</p></li>
+      <li class="reveal"><h4>Robo Soccer</h4><p>Small autonomous robotic system designed for a soccer-based competition, integrating motors, sensors, and control logic to perform movement and ball-handling tasks.</p></li>
+      <li class="reveal"><h4>Fire Alarm System</h4><p>Early safety-system prototype using a flame/temperature sensor to detect fire or abnormal heat and activate a buzzer as an immediate warning.</p></li>
+      <li class="reveal"><h4>Making &amp; Crafting Experiments</h4><p>Hands-on crafting and mechanical model-building projects using simple materials, developing creativity, problem-solving skills, and an early interest in transforming ideas into physical prototypes.</p></li>
+    </ol>
+  </div>
+</section>
+
+<!-- ============ LEADERSHIP ============ -->
+<section class="section" id="leadership" aria-labelledby="lead-title">
+  <div class="container">
+    <div class="section__head reveal">
+      <h2 id="lead-title">Leadership &amp; Roles</h2>
+      <div class="rule"></div>
+    </div>
+    <ul class="roles">
+      <li class="role reveal"><h3>Patrol Member</h3><p>Scout Team, Daffodil International University</p></li>
+      <li class="role reveal"><h3>Member</h3><p>Robotics Club, Daffodil International University</p></li>
+      <li class="role reveal"><h3>Member</h3><p>Rotaract Club, Daffodil International University</p></li>
+      <li class="role reveal"><h3>Member</h3><p>CPC Club, Daffodil International University</p></li>
+      <li class="role reveal"><h3>Member</h3><p>Change Together Club, Daffodil International University</p></li>
+      <li class="role reveal"><h3>Member</h3><p>Daffodil Entrepreneurship Club, Daffodil International University</p></li>
+    </ul>
+  </div>
+</section>
+
+<!-- ============ AWARDS ============ -->
+<section class="section section--alt" id="awards" aria-labelledby="awards-title">
+  <div class="container">
+    <div class="section__head reveal">
+      <h2 id="awards-title">Achievements &amp; Awards</h2>
+      <div class="rule"></div>
+    </div>
+
+    <article class="card gold reveal">
+      <div class="gold__seal" aria-hidden="true"><span>★</span></div>
+      <div>
+        <h3>Gold Medal</h3>
+        <p class="gold__meta">Life Science Category</p>
+        <p>Innovation World Cup (IWC), National Round</p>
+        <p class="muted">Awarded for the Smart Helmet Safety System</p>
+      </div>
+    </article>
+
+    <ul class="awards">
+      <li class="card award reveal"><h3>1st Place — Art &amp; Drawing</h3><p>Bangladesh Atomic Energy Commission</p><time>2019</time></li>
+      <li class="card award reveal"><h3>2nd Runner-Up — Script Writing</h3><p>Online School Competition</p><time>2021</time></li>
+      <li class="card award reveal"><h3>Upazila-Level Award — Short Story &amp; Poetry Writing</h3><time>2016</time></li>
+      <li class="card award reveal"><h3>8th Place — Robotics Project</h3><p>Daffodil International University RoboCamp</p><time>2025</time></li>
+      <li class="card award reveal"><h3>Best Spoken Award</h3><p>Nazrul’s Division</p><time>2018</time></li>
+    </ul>
+  </div>
+</section>
+
+<!-- ============ CONTACT ============ -->
+<section class="section" id="contact" aria-labelledby="contact-title">
+  <div class="container">
+    <div class="section__head reveal">
+      <h2 id="contact-title">Let’s Connect</h2>
+      <div class="rule"></div>
+    </div>
+    <p class="lead reveal">For internships, academic opportunities, competitions or collaboration, reach out using the details below.</p>
+    <!-- Replace each bracketed placeholder with real details. -->
+    <ul class="contact">
+      <li class="card reveal"><span class="muted">Phone</span><strong>[Phone Number]</strong></li>
+      <li class="card reveal"><span class="muted">Email</span>
+        <!-- After adding a real email, change href to "mailto:you@example.com" and the text to match -->
+        <strong id="emailLink">[Email Address]</strong></li>
+      <li class="card reveal"><span class="muted">Location</span><strong>[City, Bangladesh]</strong></li>
+      <li class="card reveal"><span class="muted">LinkedIn</span><a data-link="linkedin" href="#" target="_blank" rel="noopener">[LinkedIn URL]</a></li>
+      <li class="card reveal"><span class="muted">GitHub</span><a data-link="github" href="#" target="_blank" rel="noopener">[GitHub URL]</a></li>
+      <li class="card reveal"><span class="muted">Portfolio</span><a data-link="portfolio" href="#" target="_blank" rel="noopener">[Portfolio URL]</a></li>
+    </ul>
+    <div class="hero__cta reveal">
+      <a class="btn" href="cv.pdf" target="_blank" rel="noopener">View CV</a>
+      <a class="btn btn--ghost" href="cv.pdf" download>Download CV</a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="container footer__grid">
+    <div>
+      <p class="footer__name">Ferdousi Mahmud Moon</p>
+      <p class="muted">Computer Science &amp; Engineering Student</p>
+      <p class="muted">Technology &amp; Innovation Enthusiast</p>
+    </div>
+    <ul class="footer__links">
+      <li><a href="cv.pdf" target="_blank" rel="noopener">CV</a></li>
+      <li><a data-link="linkedin" href="#" target="_blank" rel="noopener">LinkedIn</a></li>
+      <li><a data-link="github" href="#" target="_blank" rel="noopener">GitHub</a></li>
+    </ul>
+    <p class="muted footer__copy">&copy; <span id="year">2026</span> Ferdousi Mahmud Moon</p>
+  </div>
+</footer>
+
+<button class="to-top" id="toTop" aria-label="Back to top" hidden>↑</button>
+<script src="script.js"></script>
+</body>
+</html>
