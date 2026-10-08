@@ -86,29 +86,8 @@
     if (img.complete && img.naturalWidth === 0) fail();
   }
 
-  /* Make real email clickable once the placeholder has been replaced */
-  function initEmail() {
-    const el = $('#emailLink'); if (!el) return;
-    const v = el.textContent.trim();
-    if (/^[^\s@\[\]]+@[^\s@\[\]]+\.[^\s@\[\]]+$/.test(v)) {
-      const a = document.createElement('a');
-      a.href = 'mailto:' + v; a.textContent = v; a.id = 'emailLink';
-      el.replaceWith(a);
-    }
-  }
-
-  /* Unfilled link placeholders: keep them inert instead of jumping to top */
-  function initPlaceholderLinks() {
-    $$('a[data-link]').forEach(a => {
-      if (a.getAttribute('href') === '#') {
-        a.addEventListener('click', e => e.preventDefault());
-        a.setAttribute('aria-disabled', 'true');
-      }
-    });
-  }
-
   document.addEventListener('DOMContentLoaded', () => {
     setYear(); initScrollUI(); initMenu(); initActiveNav(); initReveal();
-    initSpotlight(); initPhoto(); initEmail(); initPlaceholderLinks();
+    initSpotlight(); initPhoto();
   });
 })();
